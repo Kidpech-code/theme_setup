@@ -1,0 +1,117 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Flutter/Dart/Pub related (recommended)
+.packages
+.pub-cache/
+.pub/
+build/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/ephemeral/
+ios/Flutter/App.framework
+ios/Flutter/engine/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Podfile.lock
+ios/Podfile
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner/Info.plist~
+
+# Android
+android/.gradle/
+android/captures/
+android/gradle/
+android/app/build/
+android/local.properties
+android/.idea/
+android/app/*.iml
+android/build/
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Pods/
+macos/Runner.xcworkspace/
+macos/Runner.xcodeproj/project.xcworkspace/
+macos/Runner.xcodeproj/xcuserdata/
+macos/Runner.xcworkspace/xcuserdata/
+macos/Podfile.lock
+macos/Podfile
+
+# Linux
+linux/flutter/ephemeral/
+linux/flutter/generated_plugin_registrant.*
+linux/build/
+
+# Windows
+windows/flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.*
+windows/build/
+
+# Web
+web/.dart_tool/
+web/build/
+
+# VS Code
+.vscode/
+
+# Others
+*.tmp
+*.swo
+*.lock
+
+# Hive test temp
+hive_test*
+
+test/**/.dart_tool/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
