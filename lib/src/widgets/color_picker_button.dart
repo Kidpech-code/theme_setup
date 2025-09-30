@@ -42,5 +42,5 @@ class ColorPickerButton extends StatelessWidget {
   }
 }
 
-// Note: You may want to use a package like 'flutter_colorpicker' for a better picker UI.
-// For now, this is a placeholder for a simple color picker dialog.
+// The dialog above leverages flutter_colorpicker's BlockPicker to present
+// a user-friendly color selection UI while keeping the widget lightweight.

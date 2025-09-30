@@ -168,7 +168,7 @@ Edit `ios/Runner/Info.plist`:
 
 ## Notes
 
-- For a better color picker, add `flutter_colorpicker` to dependencies and update `ColorPickerButton`.
+- For advanced color picking needs, customize `ColorPickerButton` or swap in a different picker package.
 - For localization, add ARB files and use `intl`/`flutter_localizations`.
 - For production, consider splash screen, i18n, and theme migration helpers.
 - License: MIT 2025 kidpech-code
