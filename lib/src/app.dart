@@ -16,7 +16,7 @@ class App extends ConsumerWidget {
     final router = ref.read(goRouterProvider);
 
     return MaterialApp.router(
-      title: 'Material3 Demo App',
+      title: 'Material 3 Demo App',
       routerConfig: router,
       debugShowCheckedModeBanner: false,
       theme: buildThemeFromSeed(seedColor, false),
