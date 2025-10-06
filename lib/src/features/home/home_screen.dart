@@ -13,6 +13,8 @@ class HomeScreen extends ConsumerWidget {
     final themeSettings = ref.watch(themeControllerProvider);
     final mode = themeSettings.mode;
     final seedColor = Color(themeSettings.seedColorValue);
+    final seedColorHex =
+        themeSettings.seedColorValue.toRadixString(16).padLeft(8, '0').toUpperCase();
 
     return Scaffold(
       appBar: AppBar(title: const Text('Home')),
@@ -58,7 +60,7 @@ class HomeScreen extends ConsumerWidget {
                       .setSeedColor(color),
                 ),
                 const SizedBox(width: 8),
-                Text('Current: #${seedColor.toString().toUpperCase()}'),
+                Text('Current: #$seedColorHex'),
               ],
             ),
             const SizedBox(height: 24),
