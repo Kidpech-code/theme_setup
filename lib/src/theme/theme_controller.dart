@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_riverpod/legacy.dart';
 import 'package:theme_setup/src/services/storage_service.dart';
 import 'package:theme_setup/src/theme/theme_models.dart';
 
